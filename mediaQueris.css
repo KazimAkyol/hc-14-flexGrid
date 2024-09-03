@@ -22,3 +22,51 @@ h1{
     padding: 10px 0;
     font-size: 50px;
 }
+
+header{
+    background-color: var(--koyu-yesil);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.navbar{
+    background-color: var(--gri-4);
+    text-align: end;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    text-align: center;
+    padding: 20px;
+}
+
+.col-a{
+    background-color: var(--gri-5);
+    width: 35%;
+}
+
+.col-b{
+    background-color: var(--gri-6);
+    width: 20%;
+}
+
+.col-c{
+    background-color: var(--gri-7);
+    width: 30%;
+}
+
+.col-d{
+    background-color: var(--gri-8);
+    width: 15%;
+}
