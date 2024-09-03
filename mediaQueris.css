@@ -75,7 +75,7 @@ header{
 
 
 @media screen and (max-width:992px){
-    
+
     body{
         background-color: var(--acik-kirmizi);
         color: white;
@@ -92,5 +92,20 @@ header{
 
     body{
         background-color: var(--mor-1);
+    }
+
+    .header{
+        display: none;
+    }
+
+    .col{
+        width: 100%;
+
+        /* buraya margin vermedik cünkü tabletlere verilen marginden etkilendik */
+    }
+
+    .navbar a{
+        display: block;
+        text-align: center;
     }
 }
