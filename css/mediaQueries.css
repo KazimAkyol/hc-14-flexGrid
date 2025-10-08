@@ -1,2 +1,73 @@
 @import "./variable.css";
 
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-family: var(--ff-montserrat);
+}
+
+body {
+    border-color: var(--mavi-9);
+}
+
+h1 {
+    border-color: var(--koyu-kirmizi);
+    border: 2px solid black;
+    width: 300px;
+    text-align: center;
+    /* yaziyi ortaladik */
+    margin: 1rem auto;
+    /* basligin kutusunu ortaladik */
+    border-radius: 50px;
+    padding: 10px 0;
+    font-size: 50px;
+}
+
+.header {
+    background-color: var(--koyu-kirmizi);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.navbar {
+    background-color: var(--gri-4);
+    text-align: end;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    padding: 20px;
+    text-align: center;
+}
+
+.col a {
+    background-color: var(--gri-5);
+    width: 35%;
+}
+
+.col b {
+    background-color: var(--gri-6);
+    width: 20%;
+}
+
+.col c {
+    background-color: var(--gri-7);
+    width: 30%;
+}
+
+.col d {
+    background-color: var(--gri-8);
+    width: 15%;
+}
