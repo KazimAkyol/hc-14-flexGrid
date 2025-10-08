@@ -71,3 +71,37 @@ h1 {
     background-color: var(--gri-8);
     width: 15%;
 }
+
+/*! üstteki stiller en büyük ekranlarda kullanilsin. ta ki 992px'e kadar (tablete kadar). 992px'den asagida (tablette) alttaki stiller kullanilmaya baslansin  */
+@media screen and (max-width:992px) {
+    body {
+        background-color: var(--acik-kirmizi);
+        color: white;
+    }
+
+    .col {
+        width: 50%;
+        margin: 0.5rem 0;
+    }
+}
+
+/*! 576px'e kadar üstteki stiller kullanilsin (ilk bastakiler ve tablet koduyla ezilenler varsa onlar) 576px ve altinda bir alttaki stiller kullanilsin*/
+
+@media screen and (max-width:576px) {
+    body {
+        background-color: var(--mor-1);
+    }
+
+    .header {
+        display: none;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .navbar a {
+        display: block;
+        text-align: center;
+    }
+}
